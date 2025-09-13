@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body{
     margin: 88px 80px 137px 80px;
+    display: flex;
 }
 
 #headline{
     color: #E1624F;
     font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans';
 }
 
 #subtitle{
     font-size: 16px;
+    font-family: 'Open Sans';
 }
 
 p#description{
@@ -16,14 +22,22 @@ p#description{
     font-style: italic;
     text-align: center;
     color: #333333;
+    font-family: 'Open Sans';
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Open Sans';
+
 }
 
 img {
     border-radius: 28px;
     width: 100%;
+    padding: 48px;
 }
 
-#divider {
+.divider {
     width: 100%;
     height: 1px;
     margin: 36px 0;
@@ -34,12 +48,68 @@ h1#title {
     font-size: 36px;
     margin-top: 8px;
     margin-bottom: 40px;
+    font-weight: bold;
+    font-family: 'Open Sans';
 }
 
 h2#title{
     font-size: 32px;
+    font-weight: bold;
+    font-family: 'Open Sans';
 }
 
-h3#title{
+h3{
     font-size: 28px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
+
+li{
+    font-family: 'Open Sans';
+    font-size: 28px;
+    font-weight: bold;
+}
+
+li p{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+ul li.historia{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: #0C51A7;
+}
+
+.familia{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: #E5245E;
+}
+
+.casais{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: #591B98;
+}
+
+.orcamento{
+    color:#E95E10;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+li::marker {
+    color: black; 
+    list-style-type: disc; 
+}
+
+.bom{
+    font-weight: bold;
+    line-height: 0.1px;
 }
